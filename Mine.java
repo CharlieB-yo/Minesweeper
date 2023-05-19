@@ -7,4 +7,10 @@ public class Mine{
         this.flagged = false;
         this.clicked = false;
     }
+    public void click(){
+        clicked = true;
+    }
+    public void flag(){
+        flagged = true;
+    }
 }
